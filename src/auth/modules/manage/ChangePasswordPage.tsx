@@ -8,7 +8,7 @@ const ChangePasswordPage = () => {
   const { t } = useTranslation()
 
   return (
-    <Page title={t("Change password")} extra={<GoBack />}>
+    <Page title={t("Change Password")} extra={<GoBack />}>
       <ConnectedWallet>
         <Card>
           <ChangePasswordForm />

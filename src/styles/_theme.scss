@@ -3,7 +3,7 @@
 :root {
   // sizes
   --border-width: 1px;
-  --border-radius: 8px;
+  --border-radius: 16px;
   --grid-gap: 20px;
   --card-padding: 28px;
   --card-padding-small: 20px;
@@ -93,9 +93,9 @@
 }
 
 .dark {
-  --button-primary-bg-h: 210;
-  --button-primary-bg-s: 89%;
-  --button-primary-bg-l: 61%;
+  --button-primary-bg-h: 224;
+  --button-primary-bg-s: 82%;
+  --button-primary-bg-l: 60%;
   --button-primary-bg: hsl(
     var(--button-primary-bg-h),
     var(--button-primary-bg-s),

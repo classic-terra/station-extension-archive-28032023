@@ -23,13 +23,12 @@ const Page = (props: PropsWithChildren<Props>) => {
       {(progress, wrong) => (
         <>
           {progress}
-
           <article className={cx(styles.page, { sub, small })}>
             <Container className={styles.grid}>
               {title && (
                 <header className={styles.header}>
-                  <h1 className={styles.title}>{title}</h1>
                   {extra}
+                  <h1 className={styles.title}>{title}</h1>
                 </header>
               )}
 

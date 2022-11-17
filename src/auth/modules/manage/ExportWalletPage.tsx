@@ -8,7 +8,7 @@ const ExportWalletPage = () => {
   const { t } = useTranslation()
 
   return (
-    <Page title={t("Export wallet")} extra={<GoBack />}>
+    <Page title={t("Export Wallet")} extra={<GoBack />}>
       <ConnectedWallet>
         <Card>
           <ExportWalletForm />

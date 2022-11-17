@@ -6,11 +6,12 @@ import styles from "./ExtensionPage.module.scss"
 
 interface Props extends QueryState {
   header?: ReactNode
+  extra?: ReactNode
   title?: string
 }
 
 const ExtensionPage = (props: PropsWithChildren<Props>) => {
-  const { header, title, children } = props
+  const { header, title, children, extra } = props
 
   return (
     <WithFetching {...props}>
@@ -27,6 +28,7 @@ const ExtensionPage = (props: PropsWithChildren<Props>) => {
 
             {title && (
               <header className={styles.header}>
+                {extra}
                 <h1 className={styles.title}>
                   <Container className={styles.container}>{title}</Container>
                 </h1>
