@@ -5,6 +5,7 @@ import { isWallet, useAuth } from "auth"
 import TxContext from "../../txs/TxContext"
 import useDefaultValues from "./utils/useDefaultValues"
 import SignMultisigTxForm from "./SignMultisigTxForm"
+import GoHome from "../../extension/auth/GoHome"
 
 const SignMultisigTxPage = () => {
   const { t } = useTranslation()
@@ -26,7 +27,11 @@ const SignMultisigTxPage = () => {
     )
   }
 
-  return <Page title={t("Sign a multisig tx")}>{render()}</Page>
+  return (
+    <Page extra={<GoHome />} title={t("Sign a multisig tx")}>
+      {render()}
+    </Page>
+  )
 }
 
 export default SignMultisigTxPage

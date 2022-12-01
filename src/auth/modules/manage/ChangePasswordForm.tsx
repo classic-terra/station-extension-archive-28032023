@@ -41,7 +41,7 @@ const ChangePasswordForm = () => {
       )}
 
       <Form onSubmit={handleSubmit(submit)}>
-        <FormItem label={t("Current password")} error={errors.current?.message}>
+        <FormItem label={t("Current Password")} error={errors.current?.message}>
           <Input
             {...register("current", { validate: validatePassword })}
             type="password"
