@@ -18,7 +18,7 @@ const ChainSelector = ({ chainsList, onChange }: Props) => {
           if (b.name === "Terra") return 1
           return 0
         }),
-    [networks]
+    [networks, chainsList]
   )
   const [chain, setChain] = useState(list[0].chainID)
 
