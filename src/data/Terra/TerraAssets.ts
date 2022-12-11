@@ -92,7 +92,7 @@ const sortWhitelistCW20 = (data: CW20Whitelist) => {
   const sorted = toPairs(data).sort(
     ([, a], [, b]) =>
       Number(b.symbol === "ANC") - Number(a.symbol === "ANC") ||
-      Number(b.protocol === "Anchor") - Number(a.protocol === "Anchor") ||
+      // Number(b.protocol === "Anchor") - Number(a.protocol === "Anchor") ||
       Number(b.symbol === "MIR") - Number(a.symbol === "MIR") ||
       Number(b.protocol === "Mirror") - Number(a.protocol === "Mirror")
   )

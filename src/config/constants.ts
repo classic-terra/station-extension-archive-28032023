@@ -5,12 +5,12 @@ export const LAZY_LIMIT = 999
 export const BRIDGE = "https://walletconnect.terra.dev"
 
 /* api */
-export const ASSETS = "https://assets.terra.money"
+export const ASSETS = "https://assets.classic-terra.com"
 export const OBSERVER = "wss://observer.terra.dev"
 
 /* website */
-export const STATION = "https://station.terra.money"
-export const FINDER = "https://terrascope.info"
+export const STATION = "https://station.classic-terra.com"
+export const FINDER = "https://finder.classic-terra.com"
 export const EXTENSION =
   "https://chrome.google.com/webstore/detail/aiifbnbfobpmeekipheeijimdpnlpgpp"
 export const TUTORIAL =

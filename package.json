@@ -15,7 +15,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "dependencies": {
-    "@anchor-protocol/anchor.js": "^5.1.1",
+   
     "@ledgerhq/hw-transport-web-ble": "^6.27.1",
     "@mui/icons-material": "^5.8.0",
     "@mui/material": "^5.9.1",
@@ -24,7 +24,7 @@
     "@classic-terra/msg-reader": "^1.0.1",
     "@classic-terra/terra.js": "^1.0.1",
     "@classic-terra/terra.proto": "^1.0.0",
-    "@classic-terra/wallet-provider": "^3.11.1",
+    "@classic-terra/wallet-provider": "^3.11.2",
     "@terra.kitchen/utils": "^1.0.7",
     "@tippyjs/react": "^4.2.6",
     "axios": "^0.27.2",

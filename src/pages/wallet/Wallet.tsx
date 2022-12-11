@@ -1,13 +1,13 @@
-import { useIsAnchorAvailable } from "data/external/anchor"
+//import { useIsAnchorAvailable } from "data/external/anchor"
 import { Auto, Page } from "components/layout"
 import Coins from "./Coins"
 import Tokens from "./Tokens"
 import Vesting from "./Vesting"
 import Rewards from "./Rewards"
-import AnchorEarn from "./AnchorEarn"
+//import AnchorEarn from "./AnchorEarn"
 
 const Wallet = () => {
-  const isAnchorAvailable = useIsAnchorAvailable()
+  // const isAnchorAvailable = useIsAnchorAvailable()
 
   return (
     <Page title="Wallet">
@@ -20,7 +20,6 @@ const Wallet = () => {
           </>,
           <>
             <Rewards />
-            {isAnchorAvailable && <AnchorEarn />}
           </>,
         ]}
       />
