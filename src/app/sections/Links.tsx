@@ -12,15 +12,15 @@ const Links = () => {
 
   const community = isClassic
     ? {
-        discord: "https://terra.sc/classicdiscord",
-        telegram: "https://t.me/TerraLunaChat",
-        twitter: "https://twitter.com/terrac_money",
+        discord: "https://discord.com/terracvita",
+        telegram: "https://t.me/TerracVitaCommunity",
+        twitter: "https://twitter.com/terracvita",
       }
     : {
-        medium: "https://medium.com/classic-terra",
-        discord: "https://terra.sc/discord",
-        telegram: "https://t.me/TerraNetworkLobby",
-        twitter: "https://twitter.com/terra_money",
+        medium: "https://medium.com/terracvita",
+        discord: "https://discord.com/terracvita",
+        telegram: "https://t.me/TerracVitaCommunity",
+        twitter: "https://twitter.com/terracvita",
         github: "https://github.com/classic-terra",
       }
 
