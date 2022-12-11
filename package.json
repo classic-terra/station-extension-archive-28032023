@@ -15,7 +15,6 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "dependencies": {
-   
     "@ledgerhq/hw-transport-web-ble": "^6.27.1",
     "@mui/icons-material": "^5.8.0",
     "@mui/material": "^5.9.1",
