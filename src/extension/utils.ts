@@ -1,5 +1,5 @@
 import { useCallback } from "react"
-import { CreateTxOptions, Fee, Msg, Tx } from "@terra-money/terra.js"
+import { CreateTxOptions, Fee, Msg, Tx } from "@classic-terra/terra.js"
 import { useIsClassic } from "data/query"
 
 /* primitive */

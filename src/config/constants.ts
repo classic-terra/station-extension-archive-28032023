@@ -18,7 +18,7 @@ export const TUTORIAL =
 
 /* website: stake */
 export const TERRA_VALIDATORS =
-  "https://github.com/terra-money/validator-profiles/tree/master/validators/"
+  "https://github.com/classic-terra/validator-profiles/tree/master/validators/"
 
 export const STAKE_ID = "https://stake.id/#/validator/"
 
@@ -33,5 +33,5 @@ export const CLASSIC_DEFAULT_GAS_ADJUSTMENT = 3
 export const TERRASWAP_COMMISSION_RATE = 0.003
 
 /* placeholder */
-// https://github.com/terra-money/localterra
+// https://github.com/classic-terra/localterra
 export const SAMPLE_ADDRESS = "terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v"

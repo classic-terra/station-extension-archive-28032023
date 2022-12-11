@@ -1,4 +1,4 @@
-import { AccAddress } from "@terra-money/terra.js"
+import { AccAddress } from "@classic-terra/terra.js"
 import extension from "extensionizer"
 import decrypt from "auth/scripts/decrypt"
 

@@ -2,7 +2,7 @@
 
 ![Banner](Banner.png)
 
-**Terra Station Wallet extension** is a browser extension to interact with [Terra Core](https://github.com/terra-money/core).
+**Terra Station Wallet extension** is a browser extension to interact with [Terra Core](https://github.com/classic-terra/core).
 
 Terra Station Wallet extension allows users to:
 
@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://create-react-app.d
 Build Terra Station Wallet extension with the following commands:
 
 ```
-git clone https://github.com/terra-money/station-extension.git
+git clone https://github.com/classic-terra/station-extension.git
 cd station-extension
 npm i
 npm run build
